@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Anaheim|Lobster|Quicksand');
+
+*{
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+    text-align: center !important;
+}
+
+#sub-div{
+    font-family: 'Lobster', cursive;
+}
+
+header{
+    text-align: center;
+    margin: 1% 0 5% 0;
+    font-family: 'Lobster', cursive;
+}
+
+#backBtn{
+    font-size: 1.4em;
+    margin: 10px;
+    padding: 0px !important;
+    width: 50px;
+    display: block;
+}
+
+label{
+    font-family: 'Anaheim', sans-serif;
+    font-size: 1.2em;
+}
+
+input[type=text]{
+    font-family: 'Quicksand', sans-serif;
+    margin:0 auto;
+    width: 450px;
+}
+
+#textarea{
+    font-family: 'Quicksand', sans-serif;
+    margin:0 auto;
+    width: 450px;
+}
+
+#submit{
+    width: 8.66%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 620px) {
+    #submit{
+        width: 170px !important;
+    }
+    input[type=text]{
+        width: 310px;
+    }
+    #textarea{
+        width: 310px;
+    }    
+}
+@media screen and (max-width: 355px) {
+    header h1{
+        font-size: 3.5em !important;
+    }
+    #submit{
+        width: 170px !important;
+    }
+    input[type=text]{
+        width: 310px;
+    }
+    #textarea{
+        width: 310px;
+    }    
+}
+
+.table{  
+    font-family: 'Quicksand', sans-serif;
+}
